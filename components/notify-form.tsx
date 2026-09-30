@@ -5,7 +5,7 @@ import { FormEvent, useState } from "react";
 type Status = "idle" | "submitting" | "ok" | "error";
 
 const API_URL = (
-  process.env.NEXT_PUBLIC_API_URL ?? "https://api.aroa.store"
+  process.env.NEXT_PUBLIC_API_URL ?? "https://api.oroa.store"
 ).replace(/\/$/, "");
 
 export function NotifyForm() {
