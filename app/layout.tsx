@@ -27,11 +27,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="ko" className={`${cormorant.variable} ${notoSansKr.variable}`}>
-      <GoogleTagManager gtmId="GTM-K635HCHD" />
+      <GoogleTagManager gtmId="GTM-W6XBSXCG" />
       <body>
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-K635HCHD"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-W6XBSXCG"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
