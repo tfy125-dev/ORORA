@@ -11,8 +11,8 @@ export function Nav() {
         <a href="#story">Our Hour</a>
         <a href="#serum">Serum</a>
         <a href="#ritual">Ritual</a>
-        <a className="nav-cta" href="#notify">
-          출시 소식 받기
+        <a className="nav-cta" href="#reserve">
+          사전 예약
         </a>
       </nav>
     </header>

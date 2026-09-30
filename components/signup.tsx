@@ -2,15 +2,15 @@ import { NotifyForm } from "@/components/notify-form";
 
 export function Signup() {
   return (
-    <section className="signup" id="notify">
+    <section className="signup" id="reserve">
       <div className="reveal">
-        <div className="eyebrow">Be the first to know</div>
+        <div className="eyebrow">Pre-order</div>
         <h2>
-          The hour
+          Reserve
           <br />
-          is coming.
+          your hour.
         </h2>
-        <p>OROA의 첫 황금빛 시간이 시작되면 가장 먼저 알려드릴게요.</p>
+        <p>이름과 이메일, 요청사항을 남겨 주시면 OROA 4PM 세럼 사전 예약을 접수할게요.</p>
       </div>
       <NotifyForm />
     </section>
